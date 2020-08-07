@@ -13,7 +13,7 @@ import na20100995.foundation.bank.na20100995_bank.entity.Account;
  *
  */
 @Service
-public class AccountsServiceImpl implements AccountsService {
+public class AccountsServiceImpl implements AccountService {
 
 	@Autowired
 	AccountsDAO accountsDAO;

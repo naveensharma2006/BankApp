@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import na20100995.foundation.bank.na20100995_bank.entity.Account;
-import na20100995.foundation.bank.na20100995_bank.service.AccountsService;
+import na20100995.foundation.bank.na20100995_bank.service.AccountService;
 
 /**
  * @author naveensharma
@@ -18,7 +18,7 @@ import na20100995.foundation.bank.na20100995_bank.service.AccountsService;
 public class AccountController {
 	
 	@Autowired
-	AccountsService accountService;
+	AccountService accountService;
 
 
 	/** Gets all accounts
