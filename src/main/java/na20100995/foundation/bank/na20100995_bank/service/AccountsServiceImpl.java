@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 import na20100995.foundation.bank.na20100995_bank.dao.AccountsDAO;
 import na20100995.foundation.bank.na20100995_bank.entity.Account;
 
+/**
+ * @author naveensharma
+ *
+ */
 @Service
 public class AccountsServiceImpl implements AccountsService {
 
